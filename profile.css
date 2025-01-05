@@ -1,0 +1,140 @@
+/* profile.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('gback.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+form h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 10px 15px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #ff9800;
+    background: #fdf2e3;
+}
+
+.input-group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #666;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background: #ff9800;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e68a00;
+}
+
+.or-section {
+    margin: 1.5rem 0;
+    font-size: 14px;
+    color: #999;
+    position: relative;
+}
+
+.or-section:before,
+.or-section:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #ccc;
+}
+
+.or-section:before {
+    left: 0;
+}
+
+.or-section:after {
+    right: 0;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-buttons .social-btn {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #666;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.social-buttons .social-btn:hover {
+    background: #eee;
+    color: #333;
+}
+
+.signin-link {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #666;
+}
+
+.signin-link a {
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signin-link a:hover {
+    text-decoration: underline;
+}

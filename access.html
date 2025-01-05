@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="con">
+        <h1>
+            You need to login first to access these features.
+        </h1>
+        <div class="login">
+            <button onclick="window.location.href='signup.html'">LogIn</button>
+    
+        </div>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background: url('gback.jpeg') no-repeat center center fixed;
+                background-size: cover;
+                color: rgb(225, 219, 21);
+                overflow-x: hidden;
+            }
+    
+            button {
+                background: linear-gradient(to right, #f12711, #f5af19);
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 1rem;
+                border-radius: 25px;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            button:hover {
+                background: linear-gradient(to right, #f5af19, #f12711);
+                transform: scale(1.1);
+            }
+
+            .con{
+                text-align: center;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                animation: slideUp 1.5s ease-in-out;
+                background: rgba(255, 255, 255, 0.2);
+                backdrop-filter: blur(10px);
+                display: inline-block;
+                border-radius: 10px;
+                margin-top: 270px;
+                margin-left: 400px;
+                
+            }
+    
+    
+        </style>
+
+    </div>
+
+</body>
+</html>
